@@ -1,10 +1,10 @@
 def oxford_comma(array)
- case array
- when array.length == 1
+ case array.length
+ when 1
    array.join
- when array.length == 2
+ when 2
    array.join(" and ")
- when array.length >= 3
+ when >= 3
    something
  end
 
