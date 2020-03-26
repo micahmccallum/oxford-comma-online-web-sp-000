@@ -10,6 +10,6 @@ def oxford_comma(array)
      string << array[current] + ", "
      current += 1
    end
-   string << array[current - 1] + " and " + array[current]
+   string << array[current] + " and " + array[current + 1]
  end
 end
