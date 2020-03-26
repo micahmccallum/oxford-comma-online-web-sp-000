@@ -7,7 +7,7 @@ def oxford_comma(array)
  end
  string = ""
  current = 0
- while current < array.length -1
+ while current < array.length - 1
    string << array[0] + ", "
    current += 1
  end
