@@ -6,10 +6,10 @@ def oxford_comma(array)
  else
    string = ""
    current = 0
-   while current < array.length - 2
+   while current < array.length - 1
      string << array[current] + ", "
      current += 1
    end
-   string << array[current] + " and " + array[current + 1]
+   string << " and " + array[current]
  end
 end
